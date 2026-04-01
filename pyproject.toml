@@ -15,6 +15,10 @@ authors = [
 description = "AdHoc Ediwheel XML API port to Python"
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+    "jinja2>=3.0.1",
+    "requests>=2.26.0",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

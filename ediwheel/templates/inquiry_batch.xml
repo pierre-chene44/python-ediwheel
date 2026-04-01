@@ -10,7 +10,7 @@
 {% for line, ean, manufacturer in lines %}
 
   <OrderLine>
-    <LineID>000001</LineID>
+    <LineID>{{ "%06d"|format(line) }}</LineID> 
     <OrderedArticle>
       <ArticleIdentification>
         <ManufacturersArticleID>{{ manufacturer }}</ManufacturersArticleID>
